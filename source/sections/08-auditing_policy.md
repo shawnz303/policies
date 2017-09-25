@@ -1,16 +1,14 @@
 # 8. Auditing Policy
 
-Datica shall audit access and activity of electronic protected health information (ePHI) applications and systems in order to ensure compliance. The Security Rule requires healthcare organizations to implement reasonable hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI. Audit activities may be limited by application, system, and/or network auditing capabilities and resources. Datica shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.
+Iono Health shall audit access and activity of electronic protected health information (ePHI) applications and systems in order to ensure compliance. The Security Rule requires healthcare organizations to implement reasonable hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI. Audit activities may be limited by application, system, and/or network auditing capabilities and resources. Iono Health shall make reasonable and good-faith efforts to safeguard information privacy and security through a well-thought-out approach to auditing that is consistent with available resources.
 
-It is the policy of Datica to safeguard the confidentiality, integrity, and availability of applications, systems, and networks. To ensure that appropriate safeguards are in place and effective, Datica shall audit access and activity to detect, report, and guard against:
+It is the policy of Iono Health to safeguard the confidentiality, integrity, and availability of applications, systems, and networks. To ensure that appropriate safeguards are in place and effective, Datica shall audit access and activity to detect, report, and guard against:
 
 * Network vulnerabilities and intrusions;
 * Breaches in confidentiality and security of patient protected health information;
 * Performance problems and flaws in applications;
 * Improper alteration or destruction of ePHI;
 * Out of date software and/or software known to have vulnerabilities.
-
-This policy applies to all Datica Add-on systems, including BaaS, that store, transmit, or process ePHI. This policy, and associated procedures, do not apply to PaaS Customers that do not choose Datica Logging Service.
 
 ## 8.1 Applicable Standards
 
@@ -36,39 +34,38 @@ This policy applies to all Datica Add-on systems, including BaaS, that store, tr
 
 ## 8.2 Auditing Policies
 
-1. Responsibility for auditing information system access and activity is assigned to Datica's Security Officer. The Security Officer shall:
+1. Responsibility for auditing information system access and activity is assigned to Iono Health's Security Officer. The Security Officer shall:
    * Assign the task of generating reports for audit activities to the workforce member responsible for the application, system, or network;
    * Assign the task of reviewing the audit reports to the workforce member responsible for the application, system, or network, the Privacy Officer, or any other individual determined to be appropriate for the task;
    * Organize and provide oversight to a team structure charged with audit compliance activities (e.g., parameters, frequency, sample sizes, report formats, evaluation, follow-up, etc.).
-   * All connections to Datica are monitored. Access is limited to certain services, ports, and destinations. Exceptions to these rules, if created, are reviewed on an annual basis.
-2. Datica's auditing processes shall address access and activity at the following levels listed below. In the case of PaaS Customers, Application and User level auditing is the responsibility of the Customer; Datica provides software to aggregate and view User and Application logs, but the log data collected is the responsibility of the PaaS Customer. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
+   * All connections to Iono Health are monitored. Access is limited to certain services, ports, and destinations. Exceptions to these rules, if created, are reviewed on an annual basis.
+2. Iono Health's auditing processes shall address access and activity at the following levels listed below. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
    * User: User level audit trails generally monitor and log all commands directly initiated by the user, all identification and authentication attempts, and data and services accessed.
    * Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
    * System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. Datica utilizes file system monitoring from OSSEC to assure the integrity of file system data.
    * Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
-3. Datica shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Datica.
-4. Datica utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems.
-5. Datica leverages process monitoring tools throughout its environment.
-6. Datica treats its Dashboard as a Platform Add-on and, as such, it logs all activity associated with Dashboard Access.
-7. Datica uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.
-8. Datica shall identify "trigger events" or criteria that raise awareness of questionable conditions of viewing of confidential information. The "events" may be applied to the entire Datica Platform or may be specific to a Customer, partner, business associate, Platform Add-on or application (See Listing of Potential Trigger Events below).
-9. In addition to trigger events, Datica utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.
-10. Logs are reviewed weekly by the Security Officer.
-11. Datica's Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
+3. Iono Health shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to Datica.
+4. Iono Health's host, Healthcare Blocks, utilizes Trend Micro OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems.
+5. Iono Health leverages process monitoring tools throughout its environment.
+6. Healthcare Blocks uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.
+7. Healthcare Blocks shall identify "trigger events" or criteria that raise awareness of questionable conditions of viewing of confidential information. 
+8. In addition to trigger events, Healthcare Blocks utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.
+9. Logs are reviewed weekly by the Security Officer.
+10. Healthcare Block's Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
     * Scanning tools and devices;
     * Password cracking utilities;
     * Network "sniffers."
     * Passive and active intrusion detection systems.
-12. The process for review of audit logs, trails, and reports shall include:
+11. The process for review of audit logs, trails, and reports shall include:
     * Description of the activity as well as rationale for performing the audit.
     * Identification of which Datica workforce members will be responsible for review (workforce members shall not review audit logs that pertain to their own system activity).
     * Frequency of the auditing process.
     * Determination of significant events requiring further review and follow-up.
     * Identification of appropriate reporting channels for audit results and required follow-up.
-13. Vulnerability testing software may be used to probe the network to identify what is running (e.g., operating system or product versions in place), whether publicly-known vulnerabilities have been corrected, and evaluate whether the system can withstand attacks aimed at circumventing security controls.
+12. Vulnerability testing software may be used to probe the network to identify what is running (e.g., operating system or product versions in place), whether publicly-known vulnerabilities have been corrected, and evaluate whether the system can withstand attacks aimed at circumventing security controls.
     * Testing may be carried out internally or provided through an external third-party vendor. Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services - separation of duties).
     * Testing shall be done on a routine basis, currently monthly.
-14. Software patches and updates will be applied to all systems in a timely manner.
+13. Software patches and updates will be applied to all systems in a timely manner.
 
 ## 8.3 Audit Requests
 
