@@ -1,6 +1,6 @@
 # 11. Incident Response Policy
 
-Datica implements an information security incident response process to consistently detect, respond, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.
+Iono Health implements an information security incident response process to consistently detect, respond, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.
 
 The incident response process addresses:
 
@@ -27,7 +27,7 @@ The incident response process addresses:
 
 ## 11.2 Incident Management Policies
 
-The Datica incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process which can be found in [this document](sections/incident-flowchart.pdf).
+The Iono Health incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process which can be found in [this document](sections/incident-flowchart.pdf).
 
 Datica's incident response classifies security-related events into the following categories:
 
@@ -49,17 +49,16 @@ Datica's incident response classifies security-related events into the following
   * A data breach accomplished by an internal or external entity.
   * A Denial-of-Service (DoS) attack causing a critical service to become unreachable.
 
-Datica employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack). In practice this means keeping an eye out for security events, and letting the Security Officer know about any observed precursors or indications as soon as they are discovered.
+Iono Health employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack). In practice this means keeping an eye out for security events, and letting the Security Officer know about any observed precursors or indications as soon as they are discovered.
 
 ### 11.2.1 Identification Phase
 
-1. Immediately upon observation Datica members report suspected and known Events, Precursors, Indications, and Incidents in one of the following ways:
+1. Immediately upon observation Iono Health members report suspected and known Events, Precursors, Indications, and Incidents in one of the following ways:
    1. Direct report to management, the Security Officer, Privacy Officer, or other;
    2. Email;
    3. Phone call;
-   4. Online incident response form located [here](https://docs.google.com/a/catalyze.io/forms/d/1Hn4di9Jdw5JT8vISMh6tVUnh94VpeHucell7Ca4fKTo/viewform);
-   5. Secure Chat.
-   6. Anonymously through workforce members desired channels.
+   4. Secure Chat.
+   5. Anonymously through workforce members desired channels.
 2. The individual receiving the report facilitates completion of an [Incident Identification form](sections/IH-Identification.pdf) and notifies the Security Officer (if not already done).
 3. The Security Officer determines if the issue is an Event, Precursor, Indication, or Incident.
    1. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
@@ -133,7 +132,7 @@ The Follow-up Phase represents the review of the security incident to look for "
 
 1. Responders to the security incident (SIRT Team and technical security resource) meet to review the documentation collected during the security incident.
 2. Create a "lessons learned" document and attach it to the completed [SIR Form](sections/sir-form.doc).
-   1. Evaluate the cost and impact of the security incident to Datica using the documents provided by the SIRT and the technical security resource.
+   1. Evaluate the cost and impact of the security incident to Iono Health using the documents provided by the SIRT and the technical security resource.
    2. Determine what could be improved.
    3. Communicate these findings to Senior Management for approval and for implementation of any recommendations made post-review of the security incident.
    4. Carry out recommendations approved by Senior Management; sufficient budget, time and resources should be committed to this activity.
@@ -141,12 +140,11 @@ The Follow-up Phase represents the review of the security incident to look for "
 
 ### 11.2.6 Periodic Evaluation
 
-It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding the Datica's expectation for them, relative to security responsibilities. The incident response plan is tested annually.
+It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding the Iono Health's expectation for them, relative to security responsibilities. The incident response plan is tested annually.
 
 ## 11.3 Security Incident Response Team (SIRT)
 
-Current members of the Datica SIRT:
+Current members of the Iono Health SIRT:
 
 * Security Officer
 * Privacy Officer
-* VP of Engineering
