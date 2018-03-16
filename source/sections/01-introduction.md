@@ -57,4 +57,4 @@ The following process is used to request audit reports:
 
 ## 1.5 Version Control
 
-Refer to the GitHub repository at [https://github.com/shawnz303/policies/](https://github.com/shawnz303/policies/) for the full version history of these policies.
+Refer to the GitHub repository at [https://github.com/ionohealth/policies](https://github.com/ionohealth/policies/) for the full version history of these policies.
