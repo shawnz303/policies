@@ -49,11 +49,11 @@ Iono Health, at its sole discretion, shares audit reports, including its HITRUST
 The following process is used to request audit reports:
 
 1. Email is sent to compliance-reports@ionohealth.com. In the email, please specify the type of report being requested and any required timelines for the report.
-2. Iono Health staff will log an Issue with the details of the request into the Iono Health Compliance Review Activities Project on JIRA. JIRA is used to track requests status and outcomes.
+2. Iono Health staff will log an Issue with the details of the request into the Iono Health Compliance Review Activities Project on Trello. Trello is used to track requests status and outcomes.
 3. Iono Health will confirm if a current NDA is in place with the party requesting the audit report. If there is no NDA in place, Iono Health will send one for execution.
 4. Once it has been confirmed that an NDA is executed, Iono Health staff will move the JIRA Issue to "Under Review".
 5. The Iono Health Security Officer or Privacy Officer must Approve or Reject the Issue. If the Issue is rejected, Iono Health will notify the requesting party that we cannot share the requested report.
-4. If the Issue has been Approved, Iono Health will send the customer the requested audit report and complete the JIRA Issue for the request.
+4. If the Issue has been Approved, Iono Health will send the customer the requested audit report and complete the Trello Issue for the request.
 
 ## 1.5 Version Control
 
