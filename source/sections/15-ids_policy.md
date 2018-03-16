@@ -1,6 +1,6 @@
 # 15. IDS Policy
 
-In order to preserve the integrity of data that Datica stores, processes, or transmits for Customers, Datica implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. Datica currently utilizes [OSSEC](http://www.ossec.net/) to track file system integrity, monitor log data, and detect rootkit access.
+In order to preserve the integrity of data that Datica stores, processes, or transmits for Customers, Iono Health utilizes Heatlhcare Block's intrusion detection system.
 
 ## 15.1 Applicable Standards
 
