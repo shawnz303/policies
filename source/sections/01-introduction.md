@@ -28,8 +28,6 @@ The physical infrastructure environment is hosted at [Amazon Web Services](https
 
 Within the Iono Health Platform on AWS and HCB, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers - those hosting Docker containers, databases, APIs, log servers, etc. Iono Health assumes all data *may* contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
 
-In the case of PaaS Customers, it is the responsibility of the Customer to restrict, secure, and assure the privacy of all ePHI data at the Application Level, as this is not under the control or purview of Iono Health.
-
 The data and network segmentation mechanism differs depending on the primitives offered by the underlying cloud provider infrastructure:
 
 * Within AWS, hosted load balancers segment data across dedicated Virtual Private Clouds for PaaS Customers and for Platform Add-ons.
