@@ -1,4 +1,4 @@
-# Iono Health HIPAA Compliance Policies
+# Octagos Health HIPAA Compliance Policies
 
 ### License
 
